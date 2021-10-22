@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      background-color: rgb(148, 148, 207);
+    }
+    .bts-adv {
+      text-align: right;
+    }
+
+    .logo {
+      text-align: center;
+      color: rgb(250, 4, 57);
+    }
+
+    h2 {
+      text-align: left;
+      color: blue;
+    }
+
+    .t1 {
+      text-align: left;
+      color: rgb(102, 67, 136);
+    }
+
+    .input-search {
+      margin: 10px;
+    }
+
+    .sub  {
+      text-align: center;
+      border: 1px;
+      border-radius: 6px;
+    }
+    .in-sub {
+      color: rgb(2, 175, 2);
+      background-color: yellow;
+    }
+  </style>
+
+<body>
+  <div class="bts-adv">
+    <a class="link" href="search.html">Back to search</a>
+  </div>
+  <div class="logo">
+    <img src="advanced search.png">
+  </div>
+  <h2>Найти страницы</h2>
+
+  <div>
+    <form action="https://google.com/search">
+      <div class="t1">
+        1. Со словами:
+        <input class="input-search" type="text" placeholder="слово" name="q" />
+      </div>
+      <div class="t1">
+        2. Со словосочетанием:
+        <input class="input-search" type="text" placeholder="словосочетание" name="q" />
+      </div>
+      <div class="t1">
+        3. Именно этим словом или фразой
+        <input type="text" class="input-search" placeholder="точная фраза" name="q" />
+      </div>
+      <div class="t1">
+        4. С любым из этих слов
+        <input class="input-search" type="text" placeholder="любое слово" name="q" />
+      </div>
+      <div class="sub">
+        <input class="in-sub" type="submit" value="Google Search" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

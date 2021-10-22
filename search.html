@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Search</title>
+  <style>
+    body {
+      background-color: rgb(205, 178, 231);
+    }
+
+    .divc {
+      text-align: center;
+    }
+
+    .inp-search {
+      border: 1px solid;
+      border-radius: 20px;
+      width: 250px;
+      height: 25px;
+    }
+
+    .pict-and-adv {
+      text-align: right;
+      color: rgb(198, 247, 22);
+    }
+
+    .logo {
+      text-align: center;
+      margin: 50px;
+    }
+
+    .inp-submit {
+      text-align: center;
+      margin: 15px;
+      padding: 2px;
+      border-radius: 7px;
+      height: 25px;
+      width: 100px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="pict-and-adv">
+    <a href="pictures.html">Картинки</a>
+    <a href="advanced search.html">Расширенный поиск</a>
+  </div>
+  <div class="logo">
+    <img src="googlelogo color.png">
+  </div>
+  <form action="https://google.com/search">
+    <div class="divc">
+      <input class="inp-search" type="text" name="q" />
+    </div>
+    <div class="divc">
+      <input class="inp-submit" type="submit" value="Google Search" />
+      <input class="inp-submit" type="submit" value="Мне повезёт!" name="btnI" />
+    </div>
+  </form>
+  </div>
+</body>
+
+</html>
